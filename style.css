@@ -1,0 +1,159 @@
+/* styles.css */
+
+/* Aplica un fondo completo en tono palo de rosa */
+body {
+    background-color: #FFD1DC; /* Color palo de rosa */
+    color: #333333; /* Color de texto oscuro para buena legibilidad */
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Ajuste de estilo general para asegurar compatibilidad con el fondo */
+.container {
+    background: #FFD1DC; /* Fondo palo de rosa para cajas de contenido */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Ajuste para textos y otros elementos */
+h1, h2, h3, p, a, button {
+    color: #333333; /* Color oscuro para contraste con el fondo */
+}
+
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Header - WhatsApp Fijo */
+.whatsapp-icon {
+    position: fixed;
+    left: 20px;
+    bottom: 20px;
+    background-color: #25D366; /* Color WhatsApp */
+    border-radius: 50%;
+    padding: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.whatsapp-icon a {
+    color: white;
+    font-size: 30px;
+}
+
+/* Fondo de la sección de introducción */
+.intro {
+    background-color: #FFD1DC; /* Color palo de rosa */
+    color: #6C4F87; /* Color morado suave para texto */
+}
+
+/* Estilo de los servicios */
+.services .card {
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.services .card-title {
+    font-size: 1.5rem;
+    color: #6C4F87; /* Color morado suave */
+}
+
+.services .card-text {
+    color: #8e5c8a; /* Color morado más claro */
+}
+
+/* Estilo del footer */
+/* Estilos del footer */
+.footer {
+    background-color: #6C4F87; /* Fondo morado */
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.footer-section {
+    flex: 1 1 300px;
+    margin: 20px;
+}
+
+.footer-section h3 {
+    color: #FFD1DC; /* Color palo de rosa */
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+.footer-section p, .footer-section a {
+    color: white;
+    font-size: 0.9rem;
+    text-decoration: none;
+}
+
+.whatsapp-link {
+    display: inline-block;
+    background-color: #25D366;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.whatsapp-link:hover {
+    background-color: #1ebe5b;
+}
+
+/* Enlaces de navegación */
+.navigation ul {
+    list-style: none;
+    padding: 0;
+}
+
+.navigation li {
+    margin: 10px 0;
+}
+
+.navigation a {
+    color: #FFD1DC;
+    text-decoration: none;
+}
+
+.navigation a:hover {
+    color: white;
+}
+
+/* Redes sociales */
+.social-link {
+    display: inline-block;
+    margin: 5px;
+    padding: 10px;
+    color: #FFD1DC;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.social-link:hover {
+    background: #FFD1DC;
+    color: #6C4F87;
+}
+
+/* Parte inferior del footer */
+.footer-bottom {
+    margin-top: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    padding-top: 10px;
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, 0.8);
+}
