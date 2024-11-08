@@ -9,4 +9,3 @@ window.addEventListener('load', function() {
         document.body.classList.add('loaded');
     }, 4000); // Tiempo de retraso de 4 segundos
 });
-
