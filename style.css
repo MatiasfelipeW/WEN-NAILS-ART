@@ -157,3 +157,9 @@ body {
     font-size: 0.8rem;
     color: rgba(255, 255, 255, 0.8);
 }
+.qr-image {
+    display: block;
+    margin: 0 auto 10px; /* Centro horizontal y espacio debajo de la imagen */
+    width: 100px; /* Ajusta el tamaño de la imagen según necesites */
+    height: auto; /* Mantén la proporción de la imagen */
+}
